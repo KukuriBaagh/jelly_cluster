@@ -1,0 +1,12 @@
+---
+
+ - host: all
+   become: true
+   tasks:
+     - name: Create ansible User daju
+       ansible.builtin.user:
+         name: daju
+         comment: Daju Pahadi
+         uid: 1008
+         group: admin
+         shell: /bin/bash

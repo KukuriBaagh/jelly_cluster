@@ -1,1 +1,3 @@
-ssh-copy-id daju@192.168.121.43
+# copy ssh key to ansible master and workers(1,2)
+#
+#
